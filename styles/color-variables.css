@@ -1,0 +1,12 @@
+
+:root {
+    /*dark mode colors*/
+    --d-m-el:hsl(209, 23%, 22%);
+    --d-m-bg: hsl(207, 26%, 17%);
+    --d-m-text-and-l-m-el: hsl(0, 0%, 100%);
+
+    /*light mode colors*/
+    --l-m-text: hsl(200, 15%, 8%);
+    --l-m-input: hsl(0, 0%, 52%);
+    --l-m-background: hsl(0, 0%, 98%);
+}

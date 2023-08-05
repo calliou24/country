@@ -1,0 +1,14 @@
+
+.option_menu{
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+
+.option_menu_dark {
+    background: var(--d-m-el);
+}
+
+.dark_dropdown {
+    background: var(--d-m-el);
+}

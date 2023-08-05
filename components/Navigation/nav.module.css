@@ -1,0 +1,9 @@
+
+.nav_cont {
+    justify-content: space-between;
+    background: #FFF;
+}
+
+.nav_cont_dark{
+    background: var(--d-m-el);
+}

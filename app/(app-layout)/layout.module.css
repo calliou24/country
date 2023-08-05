@@ -1,0 +1,32 @@
+
+.main_light{
+    background-color: var(--l-m-background);
+    color: var(--l-m-text);
+}
+
+.main_dark {
+    background: var(--d-m-bg);
+    color: var(--d-m-text-and-l-m-el);
+}
+
+.main_container {
+    width: 100vw;
+    min-height: 100vh
+}
+.main_container::-webkit-scrollbar{
+    display: none;
+}
+
+@media (min-width: 50em) {
+    .main_container {
+        width: 400px;
+        min-height: 800px;
+        height: 90vh;
+        margin: 5vh auto;
+        overflow-y: scroll;
+        box-shadow: 0 0 35px 8px rgba(0,0,0,0.13);
+        border: 2px solid #0001;
+        border-radius: 1em;
+    }
+}
+

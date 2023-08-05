@@ -1,0 +1,8 @@
+
+.main_light{
+    background-color: var(--l-m-background);
+}
+
+.main_dark {
+    background: var(--d-m-bg);
+}
